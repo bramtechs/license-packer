@@ -1,4 +1,4 @@
-README.md: license-packer.py
+README.md: license-packer.py README.base.md
 	cat README.base.md > README.md
 	python3 ./license-packer.py --help >> README.md
 	echo \`\`\` >> README.md
