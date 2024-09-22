@@ -4,5 +4,7 @@ README.md: license-packer.py README.base.md
 	echo \`\`\` >> README.md
 
 .PHONY: teset
-test:
+html:
 	python3 license-packer.py ~/dev/vortex2 out.html --default-ignore --ignore parser projects --warn-gpl
+json:
+	python3 license-packer.py ~/dev/vortex2 out.json --default-ignore --ignore parser projects --warn-gpl --export-json

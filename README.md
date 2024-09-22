@@ -23,4 +23,5 @@ options:
                         'examples', '.cxx', 'docs', 'doc', 'test', 'tests']
   --verbose             Log more things
   --warn-gpl            Warn if detected viral GPL license
+  --export-json         Write json to the output file instead of html
 ```
